@@ -1,0 +1,1073 @@
+[
+  {
+    "type": "conversationUpdate",
+    "membersAdded": [
+      {
+        "id": "dd4c9573-f955-4d0f-8483-36e8a7e734fe",
+        "name": "User",
+        "role": "user"
+      }
+    ],
+    "membersRemoved": [],
+    "id": "3143de9c-fcab-4e61-a1bd-ea22578221ca",
+    "channelId": "emulator",
+    "recipient": {
+      "id": "f25a9494-c823-4b69-b717-52e5871119fb",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "localTimestamp": "2024-07-31T23:26:01+05:30",
+    "timestamp": "2024-07-31T17:56:01.774Z",
+    "conversation": {
+      "id": "e045ab27-d14d-4cc9-ab79-aeeb399fb47f|livechat"
+    },
+    "from": {
+      "id": "dd4c9573-f955-4d0f-8483-36e8a7e734fe",
+      "name": "User",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "serviceUrl": "http://localhost:5000"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "f25a9494-c823-4b69-b717-52e5871119fb",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "e045ab27-d14d-4cc9-ab79-aeeb399fb47f|livechat"
+    },
+    "recipient": {
+      "id": "dd4c9573-f955-4d0f-8483-36e8a7e734fe",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "text": "Welcome to aeroplane price predictor....",
+    "speak": "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-us'><voice name='en-US-JennyNeural'>Welcome to aeroplane price predictor....</voice></speak>",
+    "replyToId": "3143de9c-fcab-4e61-a1bd-ea22578221ca",
+    "id": "1250132c-c627-4bd3-8744-1f51a42fe591",
+    "localTimestamp": "2024-07-31T23:26:02+05:30",
+    "timestamp": "2024-07-31T17:56:02.691Z"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "f25a9494-c823-4b69-b717-52e5871119fb",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "e045ab27-d14d-4cc9-ab79-aeeb399fb47f|livechat"
+    },
+    "recipient": {
+      "id": "dd4c9573-f955-4d0f-8483-36e8a7e734fe",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "text": "What is your boarding city?",
+    "speak": "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-us'><voice name='en-US-JennyNeural'>What is your boarding city?</voice></speak>",
+    "inputHint": "expectingInput",
+    "suggestedActions": {
+      "actions": [
+        {
+          "type": "imBack",
+          "title": "jaipur",
+          "value": "jaipur"
+        },
+        {
+          "type": "imBack",
+          "title": "delhi",
+          "value": "delhi"
+        },
+        {
+          "type": "imBack",
+          "title": "pune",
+          "value": "pune"
+        }
+      ]
+    },
+    "replyToId": "3143de9c-fcab-4e61-a1bd-ea22578221ca",
+    "id": "ef3980c8-b2f2-4057-9f14-beaba9bfa6e0",
+    "localTimestamp": "2024-07-31T23:26:02+05:30",
+    "timestamp": "2024-07-31T17:56:02.760Z"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "f25a9494-c823-4b69-b717-52e5871119fb",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "e045ab27-d14d-4cc9-ab79-aeeb399fb47f|livechat"
+    },
+    "recipient": {
+      "id": "dd4c9573-f955-4d0f-8483-36e8a7e734fe",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "3143de9c-fcab-4e61-a1bd-ea22578221ca",
+    "label": "Bot State",
+    "valueType": "https://www.botframework.com/schemas/botState",
+    "value": {
+      "turn": {
+        "locale": "en-us",
+        "activity": {
+          "type": "conversationUpdate",
+          "id": "3143de9c-fcab-4e61-a1bd-ea22578221ca",
+          "timestamp": "2024-07-31T17:56:01.774Z",
+          "localTimestamp": "2024-07-31T17:56:01Z",
+          "serviceUrl": "http://localhost:5000",
+          "channelId": "emulator",
+          "from": {
+            "id": "dd4c9573-f955-4d0f-8483-36e8a7e734fe",
+            "name": "User",
+            "role": "user"
+          },
+          "conversation": {
+            "id": "e045ab27-d14d-4cc9-ab79-aeeb399fb47f|livechat"
+          },
+          "recipient": {
+            "id": "f25a9494-c823-4b69-b717-52e5871119fb",
+            "name": "Bot",
+            "role": "bot"
+          },
+          "membersAdded": [
+            {
+              "id": "dd4c9573-f955-4d0f-8483-36e8a7e734fe",
+              "name": "User",
+              "role": "user"
+            }
+          ],
+          "membersRemoved": [],
+          "locale": "en-us"
+        },
+        "dialogEvent": {
+          "Bubble": false,
+          "Name": "activityReceived",
+          "Value": {
+            "type": "conversationUpdate",
+            "id": "3143de9c-fcab-4e61-a1bd-ea22578221ca",
+            "timestamp": "2024-07-31T17:56:01.774+00:00",
+            "localTimestamp": "2024-07-31T23:26:01+05:30",
+            "localTimezone": null,
+            "serviceUrl": "http://localhost:5000",
+            "channelId": "emulator",
+            "from": {
+              "id": "dd4c9573-f955-4d0f-8483-36e8a7e734fe",
+              "name": "User",
+              "aadObjectId": null,
+              "role": "user"
+            },
+            "conversation": {
+              "isGroup": null,
+              "conversationType": null,
+              "id": "e045ab27-d14d-4cc9-ab79-aeeb399fb47f|livechat",
+              "name": null,
+              "aadObjectId": null,
+              "role": null,
+              "tenantId": null
+            },
+            "recipient": {
+              "id": "f25a9494-c823-4b69-b717-52e5871119fb",
+              "name": "Bot",
+              "aadObjectId": null,
+              "role": "bot"
+            },
+            "textFormat": null,
+            "attachmentLayout": null,
+            "membersAdded": [
+              {
+                "id": "dd4c9573-f955-4d0f-8483-36e8a7e734fe",
+                "name": "User",
+                "aadObjectId": null,
+                "role": "user"
+              }
+            ],
+            "membersRemoved": [],
+            "reactionsAdded": null,
+            "reactionsRemoved": null,
+            "topicName": null,
+            "historyDisclosed": null,
+            "locale": "en-us",
+            "text": null,
+            "speak": null,
+            "inputHint": null,
+            "summary": null,
+            "suggestedActions": null,
+            "attachments": null,
+            "entities": null,
+            "channelData": null,
+            "action": null,
+            "replyToId": null,
+            "label": null,
+            "valueType": null,
+            "value": null,
+            "name": null,
+            "relatesTo": null,
+            "code": null,
+            "expiration": null,
+            "importance": null,
+            "deliveryMode": null,
+            "listenFor": null,
+            "textHighlights": null,
+            "semanticAction": null,
+            "callerId": null
+          }
+        },
+        "lastresult": {
+          "id": "1250132c-c627-4bd3-8744-1f51a42fe591"
+        },
+        "__repeatDialogId": "TrueIfCondition(=string(dialog.foreach.value.id) != string(turn.Activity.Recipient.id)|SendActivity(${SendActivity_Greeting()}),ChoiceInp...)"
+      },
+      "dialog": {
+        "eventCounter": 2,
+        "_adaptive": {
+          "actions": [
+            {
+              "dialogId": "ActionScope[ForEachElement(=`turn.Activity.membersAdded`)]",
+              "options": null,
+              "dialogStack": [
+                {
+                  "id": "ForEachElement(=`turn.Activity.membersAdded`)",
+                  "state": {
+                    "cachedItems": [
+                      {
+                        "index": 0,
+                        "value": {
+                          "id": "dd4c9573-f955-4d0f-8483-36e8a7e734fe",
+                          "name": "User",
+                          "role": "user"
+                        }
+                      }
+                    ],
+                    "this.actionScopeState": {
+                      "dialogStack": [
+                        {
+                          "id": "ChoiceInput",
+                          "state": {
+                            "options": {
+                              "choices": [
+                                {
+                                  "value": "jaipur",
+                                  "action": null,
+                                  "synonyms": null
+                                },
+                                {
+                                  "value": "delhi",
+                                  "action": null,
+                                  "synonyms": null
+                                },
+                                {
+                                  "value": "pune",
+                                  "action": null,
+                                  "synonyms": null
+                                }
+                              ]
+                            },
+                            "turnCount": 1,
+                            "value": null
+                          },
+                          "StackIndex": null,
+                          "Version": null
+                        },
+                        {
+                          "id": "TrueIfCondition(=string(dialog.foreach.value.id) != string(turn.Activity.Recipient.id)|SendActivity(${SendActivity_Greeting()}),ChoiceInp...)",
+                          "state": {
+                            "offset": 1
+                          },
+                          "StackIndex": null,
+                          "Version": null
+                        },
+                        {
+                          "id": "ActionScope[IfCondition(=string(dialog.foreach.value.id) != st...CsXklqDOwsztxrTDYKxKcG+2Hcq3PgYWE9/s0CklnKI=]",
+                          "state": {
+                            "offset": 0
+                          },
+                          "StackIndex": null,
+                          "Version": null
+                        }
+                      ]
+                    }
+                  },
+                  "StackIndex": null,
+                  "Version": null
+                },
+                {
+                  "id": "ActionScope[ForEachElement(=`turn.Activity.membersAdded`)]",
+                  "state": {
+                    "offset": 0
+                  },
+                  "StackIndex": null,
+                  "Version": null
+                }
+              ]
+            }
+          ]
+        },
+        "foreach": {
+          "index": 0,
+          "value": {
+            "id": "dd4c9573-f955-4d0f-8483-36e8a7e734fe",
+            "name": "User",
+            "role": "user"
+          }
+        }
+      },
+      "this": {
+        "options": {
+          "choices": [
+            {
+              "value": "jaipur",
+              "action": null,
+              "synonyms": null
+            },
+            {
+              "value": "delhi",
+              "action": null,
+              "synonyms": null
+            },
+            {
+              "value": "pune",
+              "action": null,
+              "synonyms": null
+            }
+          ]
+        },
+        "turnCount": 1,
+        "value": null
+      },
+      "conversation": {
+        "DialogState": {
+          "dialogStack": [
+            {
+              "id": "Aeroplane",
+              "state": {
+                "eventCounter": 2,
+                "_adaptive": {
+                  "actions": [
+                    {
+                      "dialogId": "ActionScope[ForEachElement(=`turn.Activity.membersAdded`)]",
+                      "options": null,
+                      "dialogStack": [
+                        {
+                          "id": "ForEachElement(=`turn.Activity.membersAdded`)",
+                          "state": {
+                            "cachedItems": [
+                              {
+                                "index": 0,
+                                "value": {
+                                  "id": "dd4c9573-f955-4d0f-8483-36e8a7e734fe",
+                                  "name": "User",
+                                  "role": "user"
+                                }
+                              }
+                            ],
+                            "this.actionScopeState": {
+                              "dialogStack": [
+                                {
+                                  "id": "ChoiceInput",
+                                  "state": {
+                                    "options": {
+                                      "choices": [
+                                        {
+                                          "value": "jaipur",
+                                          "action": null,
+                                          "synonyms": null
+                                        },
+                                        {
+                                          "value": "delhi",
+                                          "action": null,
+                                          "synonyms": null
+                                        },
+                                        {
+                                          "value": "pune",
+                                          "action": null,
+                                          "synonyms": null
+                                        }
+                                      ]
+                                    },
+                                    "turnCount": 1,
+                                    "value": null
+                                  },
+                                  "StackIndex": null,
+                                  "Version": null
+                                },
+                                {
+                                  "id": "TrueIfCondition(=string(dialog.foreach.value.id) != string(turn.Activity.Recipient.id)|SendActivity(${SendActivity_Greeting()}),ChoiceInp...)",
+                                  "state": {
+                                    "offset": 1
+                                  },
+                                  "StackIndex": null,
+                                  "Version": null
+                                },
+                                {
+                                  "id": "ActionScope[IfCondition(=string(dialog.foreach.value.id) != st...CsXklqDOwsztxrTDYKxKcG+2Hcq3PgYWE9/s0CklnKI=]",
+                                  "state": {
+                                    "offset": 0
+                                  },
+                                  "StackIndex": null,
+                                  "Version": null
+                                }
+                              ]
+                            }
+                          },
+                          "StackIndex": null,
+                          "Version": null
+                        },
+                        {
+                          "id": "ActionScope[ForEachElement(=`turn.Activity.membersAdded`)]",
+                          "state": {
+                            "offset": 0
+                          },
+                          "StackIndex": null,
+                          "Version": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "foreach": {
+                  "index": 0,
+                  "value": {
+                    "id": "dd4c9573-f955-4d0f-8483-36e8a7e734fe",
+                    "name": "User",
+                    "role": "user"
+                  }
+                }
+              },
+              "StackIndex": null,
+              "Version": "C6//dvuKsEWF3pJedEi+xcoFa250RIqpRScQ7S6Q4wA="
+            }
+          ]
+        }
+      },
+      "user": {
+        "board": null
+      }
+    },
+    "name": "BotState",
+    "id": "b8a70e55-c1ac-4199-8387-69acb7742da9",
+    "localTimestamp": "2024-07-31T23:26:02+05:30",
+    "timestamp": "2024-07-31T17:56:02.778Z"
+  },
+  {
+    "channelData": {
+      "clientActivityID": "1722448565472to5y025uczi",
+      "clientTimestamp": "2024-07-31T17:56:05.472Z"
+    },
+    "text": "jaipur",
+    "textFormat": "plain",
+    "type": "message",
+    "channelId": "emulator",
+    "from": {
+      "id": "dd4c9573-f955-4d0f-8483-36e8a7e734fe",
+      "name": "",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "localTimestamp": "2024-07-31T23:26:05+05:30",
+    "localTimezone": "Asia/Calcutta",
+    "timestamp": "2024-07-31T17:56:05.497Z",
+    "entities": [
+      {
+        "requiresBotState": true,
+        "supportsListening": true,
+        "supportsTts": true,
+        "type": "ClientCapabilities"
+      }
+    ],
+    "id": "9f49eddb-762b-4001-8642-f654245cf322",
+    "recipient": {
+      "id": "f25a9494-c823-4b69-b717-52e5871119fb",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "e045ab27-d14d-4cc9-ab79-aeeb399fb47f|livechat"
+    },
+    "serviceUrl": "http://localhost:5000"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "f25a9494-c823-4b69-b717-52e5871119fb",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "e045ab27-d14d-4cc9-ab79-aeeb399fb47f|livechat"
+    },
+    "recipient": {
+      "id": "dd4c9573-f955-4d0f-8483-36e8a7e734fe",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "text": "In which city/country you have to go?",
+    "speak": "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-us'><voice name='en-US-JennyNeural'>In which city/country you have to go?</voice></speak>",
+    "inputHint": "expectingInput",
+    "suggestedActions": {
+      "actions": [
+        {
+          "type": "imBack",
+          "title": "jaipur",
+          "value": "jaipur"
+        },
+        {
+          "type": "imBack",
+          "title": "delhi",
+          "value": "delhi"
+        },
+        {
+          "type": "imBack",
+          "title": "pune",
+          "value": "pune"
+        }
+      ]
+    },
+    "replyToId": "9f49eddb-762b-4001-8642-f654245cf322",
+    "id": "3ad3ad81-074b-4a46-98c9-8d5510e5d5b8",
+    "localTimestamp": "2024-07-31T23:26:05+05:30",
+    "timestamp": "2024-07-31T17:56:05.595Z"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "f25a9494-c823-4b69-b717-52e5871119fb",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "e045ab27-d14d-4cc9-ab79-aeeb399fb47f|livechat"
+    },
+    "recipient": {
+      "id": "dd4c9573-f955-4d0f-8483-36e8a7e734fe",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "9f49eddb-762b-4001-8642-f654245cf322",
+    "label": "Bot State",
+    "valueType": "https://www.botframework.com/schemas/botState",
+    "value": {
+      "turn": {
+        "locale": "en-us",
+        "activity": {
+          "type": "message",
+          "id": "9f49eddb-762b-4001-8642-f654245cf322",
+          "timestamp": "2024-07-31T17:56:05.497Z",
+          "localTimestamp": "2024-07-31T17:56:05Z",
+          "localTimezone": "Asia/Calcutta",
+          "serviceUrl": "http://localhost:5000",
+          "channelId": "emulator",
+          "from": {
+            "id": "dd4c9573-f955-4d0f-8483-36e8a7e734fe",
+            "name": "",
+            "role": "user"
+          },
+          "conversation": {
+            "id": "e045ab27-d14d-4cc9-ab79-aeeb399fb47f|livechat"
+          },
+          "recipient": {
+            "id": "f25a9494-c823-4b69-b717-52e5871119fb",
+            "name": "Bot",
+            "role": "bot"
+          },
+          "textFormat": "plain",
+          "locale": "en-us",
+          "text": "jaipur",
+          "entities": [
+            {
+              "type": "ClientCapabilities",
+              "requiresBotState": true,
+              "supportsListening": true,
+              "supportsTts": true
+            }
+          ],
+          "channelData": {
+            "clientActivityID": "1722448565472to5y025uczi",
+            "clientTimestamp": "2024-07-31T17:56:05.472Z"
+          }
+        },
+        "dialogEvent": {
+          "Bubble": false,
+          "Name": "recognizeUtterance",
+          "Value": {
+            "type": "message",
+            "id": "9f49eddb-762b-4001-8642-f654245cf322",
+            "timestamp": "2024-07-31T17:56:05.497+00:00",
+            "localTimestamp": "2024-07-31T23:26:05+05:30",
+            "localTimezone": "Asia/Calcutta",
+            "serviceUrl": "http://localhost:5000",
+            "channelId": "emulator",
+            "from": {
+              "id": "dd4c9573-f955-4d0f-8483-36e8a7e734fe",
+              "name": "",
+              "aadObjectId": null,
+              "role": "user"
+            },
+            "conversation": {
+              "isGroup": null,
+              "conversationType": null,
+              "id": "e045ab27-d14d-4cc9-ab79-aeeb399fb47f|livechat",
+              "name": null,
+              "aadObjectId": null,
+              "role": null,
+              "tenantId": null
+            },
+            "recipient": {
+              "id": "f25a9494-c823-4b69-b717-52e5871119fb",
+              "name": "Bot",
+              "aadObjectId": null,
+              "role": "bot"
+            },
+            "textFormat": "plain",
+            "attachmentLayout": null,
+            "membersAdded": null,
+            "membersRemoved": null,
+            "reactionsAdded": null,
+            "reactionsRemoved": null,
+            "topicName": null,
+            "historyDisclosed": null,
+            "locale": "en-us",
+            "text": "jaipur",
+            "speak": null,
+            "inputHint": null,
+            "summary": null,
+            "suggestedActions": null,
+            "attachments": null,
+            "entities": [
+              {
+                "type": "ClientCapabilities",
+                "requiresBotState": true,
+                "supportsListening": true,
+                "supportsTts": true
+              }
+            ],
+            "channelData": {
+              "clientActivityID": "1722448565472to5y025uczi",
+              "clientTimestamp": "2024-07-31T17:56:05.472Z"
+            },
+            "action": null,
+            "replyToId": null,
+            "label": null,
+            "valueType": null,
+            "value": null,
+            "name": null,
+            "relatesTo": null,
+            "code": null,
+            "expiration": null,
+            "importance": null,
+            "deliveryMode": null,
+            "listenFor": null,
+            "textHighlights": null,
+            "semanticAction": null,
+            "callerId": null
+          }
+        },
+        "recognized": {
+          "text": "jaipur",
+          "alteredText": null,
+          "intents": {
+            "None": {
+              "score": 1
+            }
+          },
+          "entities": {
+            "$instance": {}
+          },
+          "intent": "None",
+          "score": 1
+        },
+        "activityProcessed": true,
+        "lastresult": "jaipur"
+      },
+      "dialog": {
+        "eventCounter": 3,
+        "_adaptive": {
+          "actions": [
+            {
+              "dialogId": "ActionScope[ForEachElement(=`turn.Activity.membersAdded`)]",
+              "options": null,
+              "dialogStack": [
+                {
+                  "id": "ForEachElement(=`turn.Activity.membersAdded`)",
+                  "state": {
+                    "cachedItems": [
+                      {
+                        "index": 0,
+                        "value": {
+                          "id": "dd4c9573-f955-4d0f-8483-36e8a7e734fe",
+                          "name": "User",
+                          "role": "user"
+                        }
+                      }
+                    ],
+                    "this.actionScopeState": {
+                      "dialogStack": [
+                        {
+                          "id": "ChoiceInput2",
+                          "state": {
+                            "options": {
+                              "choices": [
+                                {
+                                  "value": "jaipur",
+                                  "action": null,
+                                  "synonyms": null
+                                },
+                                {
+                                  "value": "delhi",
+                                  "action": null,
+                                  "synonyms": null
+                                },
+                                {
+                                  "value": "pune",
+                                  "action": null,
+                                  "synonyms": null
+                                }
+                              ]
+                            },
+                            "turnCount": 1,
+                            "value": null
+                          },
+                          "StackIndex": null,
+                          "Version": null
+                        },
+                        {
+                          "id": "TrueIfCondition(=string(dialog.foreach.value.id) != string(turn.Activity.Recipient.id)|SendActivity(${SendActivity_Greeting()}),ChoiceInp...)",
+                          "state": {
+                            "offset": 2
+                          },
+                          "StackIndex": null,
+                          "Version": null
+                        },
+                        {
+                          "id": "ActionScope[IfCondition(=string(dialog.foreach.value.id) != st...CsXklqDOwsztxrTDYKxKcG+2Hcq3PgYWE9/s0CklnKI=]",
+                          "state": {
+                            "offset": 0
+                          },
+                          "StackIndex": null,
+                          "Version": null
+                        }
+                      ]
+                    }
+                  },
+                  "StackIndex": null,
+                  "Version": null
+                },
+                {
+                  "id": "ActionScope[ForEachElement(=`turn.Activity.membersAdded`)]",
+                  "state": {
+                    "offset": 0
+                  },
+                  "StackIndex": null,
+                  "Version": null
+                }
+              ]
+            }
+          ]
+        },
+        "foreach": {
+          "index": 0,
+          "value": {
+            "id": "dd4c9573-f955-4d0f-8483-36e8a7e734fe",
+            "name": "User",
+            "role": "user"
+          }
+        },
+        "lastIntent": "None"
+      },
+      "this": {
+        "options": {
+          "choices": [
+            {
+              "value": "jaipur",
+              "action": null,
+              "synonyms": null
+            },
+            {
+              "value": "delhi",
+              "action": null,
+              "synonyms": null
+            },
+            {
+              "value": "pune",
+              "action": null,
+              "synonyms": null
+            }
+          ]
+        },
+        "turnCount": 1,
+        "value": null
+      },
+      "conversation": {
+        "DialogState": {
+          "dialogStack": [
+            {
+              "id": "Aeroplane",
+              "state": {
+                "eventCounter": 3,
+                "_adaptive": {
+                  "actions": [
+                    {
+                      "dialogId": "ActionScope[ForEachElement(=`turn.Activity.membersAdded`)]",
+                      "options": null,
+                      "dialogStack": [
+                        {
+                          "id": "ForEachElement(=`turn.Activity.membersAdded`)",
+                          "state": {
+                            "cachedItems": [
+                              {
+                                "index": 0,
+                                "value": {
+                                  "id": "dd4c9573-f955-4d0f-8483-36e8a7e734fe",
+                                  "name": "User",
+                                  "role": "user"
+                                }
+                              }
+                            ],
+                            "this.actionScopeState": {
+                              "dialogStack": [
+                                {
+                                  "id": "ChoiceInput2",
+                                  "state": {
+                                    "options": {
+                                      "choices": [
+                                        {
+                                          "value": "jaipur",
+                                          "action": null,
+                                          "synonyms": null
+                                        },
+                                        {
+                                          "value": "delhi",
+                                          "action": null,
+                                          "synonyms": null
+                                        },
+                                        {
+                                          "value": "pune",
+                                          "action": null,
+                                          "synonyms": null
+                                        }
+                                      ]
+                                    },
+                                    "turnCount": 1,
+                                    "value": null
+                                  },
+                                  "StackIndex": null,
+                                  "Version": null
+                                },
+                                {
+                                  "id": "TrueIfCondition(=string(dialog.foreach.value.id) != string(turn.Activity.Recipient.id)|SendActivity(${SendActivity_Greeting()}),ChoiceInp...)",
+                                  "state": {
+                                    "offset": 2
+                                  },
+                                  "StackIndex": null,
+                                  "Version": null
+                                },
+                                {
+                                  "id": "ActionScope[IfCondition(=string(dialog.foreach.value.id) != st...CsXklqDOwsztxrTDYKxKcG+2Hcq3PgYWE9/s0CklnKI=]",
+                                  "state": {
+                                    "offset": 0
+                                  },
+                                  "StackIndex": null,
+                                  "Version": null
+                                }
+                              ]
+                            }
+                          },
+                          "StackIndex": null,
+                          "Version": null
+                        },
+                        {
+                          "id": "ActionScope[ForEachElement(=`turn.Activity.membersAdded`)]",
+                          "state": {
+                            "offset": 0
+                          },
+                          "StackIndex": null,
+                          "Version": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "foreach": {
+                  "index": 0,
+                  "value": {
+                    "id": "dd4c9573-f955-4d0f-8483-36e8a7e734fe",
+                    "name": "User",
+                    "role": "user"
+                  }
+                },
+                "lastIntent": "None"
+              },
+              "StackIndex": null,
+              "Version": "C6//dvuKsEWF3pJedEi+xcoFa250RIqpRScQ7S6Q4wA="
+            }
+          ]
+        }
+      },
+      "user": {
+        "board": "jaipur",
+        "go": null
+      }
+    },
+    "name": "BotState",
+    "id": "97c9825b-d325-4142-bd1f-d82b81f627b5",
+    "localTimestamp": "2024-07-31T23:26:05+05:30",
+    "timestamp": "2024-07-31T17:56:05.602Z"
+  },
+  {
+    "channelData": {
+      "clientActivityID": "1722448568100o4xy2yu0nu",
+      "clientTimestamp": "2024-07-31T17:56:08.100Z"
+    },
+    "text": "pune",
+    "textFormat": "plain",
+    "type": "message",
+    "channelId": "emulator",
+    "from": {
+      "id": "dd4c9573-f955-4d0f-8483-36e8a7e734fe",
+      "name": "",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "localTimestamp": "2024-07-31T23:26:08+05:30",
+    "localTimezone": "Asia/Calcutta",
+    "timestamp": "2024-07-31T17:56:08.123Z",
+    "id": "ab8aa618-d09f-470d-b72f-019d9b5dfa69",
+    "recipient": {
+      "id": "f25a9494-c823-4b69-b717-52e5871119fb",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "e045ab27-d14d-4cc9-ab79-aeeb399fb47f|livechat"
+    },
+    "serviceUrl": "http://localhost:5000"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "f25a9494-c823-4b69-b717-52e5871119fb",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "e045ab27-d14d-4cc9-ab79-aeeb399fb47f|livechat"
+    },
+    "recipient": {
+      "id": "dd4c9573-f955-4d0f-8483-36e8a7e734fe",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "text": "price = 10000Rs\r\ndistance = 2000km",
+    "speak": "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-us'><voice name='en-US-JennyNeural'>price = 10000Rs\r\ndistance = 2000km</voice></speak>",
+    "replyToId": "ab8aa618-d09f-470d-b72f-019d9b5dfa69",
+    "id": "0e2c7058-8dce-4622-a4ae-b9b747364b93",
+    "localTimestamp": "2024-07-31T23:26:08+05:30",
+    "timestamp": "2024-07-31T17:56:08.169Z"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "f25a9494-c823-4b69-b717-52e5871119fb",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "e045ab27-d14d-4cc9-ab79-aeeb399fb47f|livechat"
+    },
+    "recipient": {
+      "id": "dd4c9573-f955-4d0f-8483-36e8a7e734fe",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "ab8aa618-d09f-470d-b72f-019d9b5dfa69",
+    "label": "Bot State",
+    "valueType": "https://www.botframework.com/schemas/botState",
+    "value": {
+      "turn": {
+        "locale": "en-us",
+        "activity": {
+          "type": "message",
+          "id": "ab8aa618-d09f-470d-b72f-019d9b5dfa69",
+          "timestamp": "2024-07-31T17:56:08.123Z",
+          "localTimestamp": "2024-07-31T17:56:08Z",
+          "localTimezone": "Asia/Calcutta",
+          "serviceUrl": "http://localhost:5000",
+          "channelId": "emulator",
+          "from": {
+            "id": "dd4c9573-f955-4d0f-8483-36e8a7e734fe",
+            "name": "",
+            "role": "user"
+          },
+          "conversation": {
+            "id": "e045ab27-d14d-4cc9-ab79-aeeb399fb47f|livechat"
+          },
+          "recipient": {
+            "id": "f25a9494-c823-4b69-b717-52e5871119fb",
+            "name": "Bot",
+            "role": "bot"
+          },
+          "textFormat": "plain",
+          "locale": "en-us",
+          "text": "pune",
+          "channelData": {
+            "clientActivityID": "1722448568100o4xy2yu0nu",
+            "clientTimestamp": "2024-07-31T17:56:08.1Z"
+          }
+        },
+        "dialogEvent": {
+          "Bubble": false,
+          "Name": "endOfActions",
+          "Value": null
+        },
+        "recognized": {
+          "text": "pune",
+          "alteredText": null,
+          "intents": {
+            "None": {
+              "score": 1
+            }
+          },
+          "entities": {
+            "$instance": {}
+          },
+          "intent": "None",
+          "score": 1
+        },
+        "activityProcessed": true,
+        "lastresult": null,
+        "__repeatDialogId": "TrueIfCondition(=user.board == 'jaipur' && user.go =='pune'|SendActivity(${SendActivity_yxhVib()}))"
+      },
+      "conversation": {
+        "DialogState": {
+          "dialogStack": []
+        }
+      },
+      "user": {
+        "board": "jaipur",
+        "go": "pune"
+      }
+    },
+    "name": "BotState",
+    "id": "26f5fe8e-2fc7-4584-b5d6-53cf525d8525",
+    "localTimestamp": "2024-07-31T23:26:08+05:30",
+    "timestamp": "2024-07-31T17:56:08.195Z"
+  }
+]
